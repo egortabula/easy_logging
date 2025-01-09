@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:easy_logging/src/extensions/object_extension.dart';
+import 'package:easy_logging/src/extensions/easy_log_extension.dart';
 import 'package:easy_logging/src/log_printer/i_log_printer.dart';
 import 'package:easy_logging/src/log_printer/logger_log_printer.dart';
 import 'package:get/get.dart';

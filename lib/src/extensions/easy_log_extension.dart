@@ -9,7 +9,7 @@ import 'package:logging/logging.dart';
 /// ```dart
 /// MyClass().logInfo("This is an info log.");
 /// ```
-extension LoggingExtension on Object {
+extension EasyLogExtension on Object {
   /// Logs an informational message.
   ///
   /// Use this to log messages that are general information about
