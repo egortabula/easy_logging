@@ -1,5 +1,14 @@
 name: easy_logging
-description: A Very Good Project created by Very Good CLI.
+description: |
+  A simple and beautiful logging utility for Flutter. Listens to all logs and prints them to the console in a stylish format.
+
+tags:
+  - logging
+  - logger
+  - console
+  - debug
+  - logs
+
 version: 0.1.0+1-beta
 publish_to: none
 
