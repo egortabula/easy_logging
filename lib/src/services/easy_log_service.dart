@@ -19,9 +19,9 @@ class EasyLogService extends GetxService {
 
   @override
   void onInit() {
-    Logger.root.info('🚀 Initializing EasyLog Service...');
+    Logger.root.fine('🚀 Initializing EasyLog Service...');
     _logListener = Logger.root.onRecord.listen(_logPrinter.logToConsole);
-    logInfo('✅ GoodLog service initialized and listening for your logs...');
+    logDebug('✅ GoodLog service initialized and listening for your logs...');
     super.onInit();
   }
 
