@@ -13,6 +13,8 @@ class LoggerLogPrinter implements ILogPrinter {
 
   @override
   void logToConsole(LogRecord record) {
+    print('🚀 logToConsole called: ${record.message}'); // <-- Добавь отладку
+
     switch (record.level) {
       case Level.WARNING:
         _logger.w(
